@@ -4,31 +4,181 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Digital Skatepark Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f7f8f5;
+      --text: #161814;
+      --muted: #5f675d;
+      --panel: #ffffff;
+      --border: #dfe4da;
+      --accent: #1f6f4a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.62;
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 36px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.25rem;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 1.3rem;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+    }
+
+    .effective-date {
+      margin-top: 12px;
+      color: var(--text);
+      font-weight: 650;
+    }
+
+    .note {
+      padding: 16px;
+      background: #edf5ef;
+      border: 1px solid #cfe2d3;
+      border-radius: 8px;
+      color: #254b34;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+        border: 0;
+        border-radius: 0;
+        padding: 28px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <main style="max-width: 760px; margin: 48px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6;">
+  <main>
     <h1>Privacy Policy</h1>
-    <p><strong>Effective date:</strong> June 30, 2026</p>
+    <p class="effective-date">Effective date: June 30, 2026</p>
 
-    <p>This privacy policy explains how The Digital Skatepark collects and uses information when you use the app.</p>
+    <p class="note">
+      This policy applies to The Digital Skatepark, the basketball training and highlight app currently using this working name. If the app is renamed or rebranded, this policy will continue to apply to the same app unless we publish an updated policy.
+    </p>
+
+    <h2>Overview</h2>
+    <p>
+      The Digital Skatepark helps players record basketball sessions, track shot activity, save highlights, connect activity to courts, and use social features such as profiles, posts, comments, friends, reports, and blocks. This privacy policy explains what information we collect, why we collect it, and how you can contact us about your data.
+    </p>
 
     <h2>Information We Collect</h2>
-    <p>We collect account information, profile information, basketball session statistics, location attached to sessions or courts, uploaded profile images, highlight videos, audio included in highlights, posts, comments, and other app content you choose to create.</p>
+    <p>Depending on how you use the app, we may collect the following information:</p>
+    <ul>
+      <li>Account information, such as your email address, user ID, username, first name, and last name.</li>
+      <li>Profile information, such as your profile photo, display details, bio, saved courts, and profile visibility settings.</li>
+      <li>Basketball session data, such as shot makes, shot attempts, session duration, activity history, highlight metadata, and related performance statistics.</li>
+      <li>Location information when you attach a session to your current location, select nearby courts, or associate activity with a basketball court.</li>
+      <li>Photos, videos, and audio you choose to create, upload, save, publish, or attach to highlights, profiles, and activity posts.</li>
+      <li>User content, such as captions, posts, comments, kudos, friend relationships, reports, blocks, and other social interactions.</li>
+      <li>Basic technical information needed to operate app features, such as local cache information, file metadata for app-created media, and sync status.</li>
+    </ul>
 
     <h2>How We Use Information</h2>
-    <p>We use this information to provide app functionality, including account access, basketball tracking, saved highlights, court activity, social features, profile pages, and account deletion.</p>
+    <p>We use information for app functionality, including to:</p>
+    <ul>
+      <li>Create and manage your account.</li>
+      <li>Record, process, save, and sync basketball sessions and highlights.</li>
+      <li>Show your profile, statistics, court activity, and saved media.</li>
+      <li>Support social features such as posts, comments, friends, reports, and blocks.</li>
+      <li>Help you find, select, and attach basketball courts to sessions.</li>
+      <li>Maintain app reliability, restore synced activity, and process account deletion requests.</li>
+    </ul>
 
-    <h2>Data Storage</h2>
-    <p>App data may be stored locally on your device and on our backend services, including Supabase, when you sign in, sync, publish, or upload content.</p>
+    <h2>Location Data</h2>
+    <p>
+      The app may request location access so you can attach session activity to a court, find nearby basketball courts, and show court-related activity. Location is used for these app features and may be stored with sessions or published activity when you choose to save, sync, or publish that content.
+    </p>
 
-    <h2>Tracking</h2>
-    <p>We do not use your data to track you across apps or websites owned by other companies. We do not sell your personal data.</p>
+    <h2>Photos, Videos, and Audio</h2>
+    <p>
+      The app uses the camera and microphone to record basketball highlights. Highlights may include video and audio. You may also choose profile images or activity images from your photo library. Media can be stored on your device and, when you sign in, sync, publish, or upload content, may be stored in our backend services.
+    </p>
 
-    <h2>Account Deletion</h2>
-    <p>You can request account deletion from inside the app. Deleting your account removes your account and associated app data, subject to technical and legal limitations.</p>
+    <h2>Social Features and User Content</h2>
+    <p>
+      If you use social features, some information you provide may be visible to other users depending on your choices and privacy settings. This can include profile information, published activity, highlight media, captions, comments, kudos, and court activity. The app includes reporting and blocking tools to help manage social interactions.
+    </p>
+
+    <h2>Data Storage and Service Providers</h2>
+    <p>
+      App data may be stored locally on your device. When you sign in, sync, publish, or upload content, data may also be processed and stored by backend service providers, including Supabase, which provides authentication, database, storage, and related backend services for the app.
+    </p>
+
+    <h2>Tracking and Advertising</h2>
+    <p>
+      We do not use your data to track you across apps or websites owned by other companies. We do not use advertising identifiers, data brokers, or third-party advertising tracking. We do not sell your personal data.
+    </p>
+
+    <h2>Data Sharing</h2>
+    <p>
+      We do not sell personal data. We may share data with service providers that help operate the app, such as backend hosting, authentication, database, and storage providers. Information may also be visible to other users when you choose to publish content or use social features.
+    </p>
+
+    <h2>Account Deletion and Data Requests</h2>
+    <p>
+      You can request account deletion from inside the app. Deleting your account is intended to remove your account and associated app data from active systems, subject to technical and legal limitations. For privacy questions or data requests, contact us at <a href="mailto:sebisayz@gmail.com">sebisayz@gmail.com</a>.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      The app is not directed to children under 13. If you believe a child has provided personal information through the app, contact us at <a href="mailto:sebisayz@gmail.com">sebisayz@gmail.com</a> so we can review the request.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this privacy policy as the app changes. If we make material changes, we will update this page and revise the effective date.
+    </p>
 
     <h2>Contact</h2>
-    <p>For privacy questions, contact: <a href="mailto:YOUR_EMAIL_HERE">sebisayz@gmail.com</a></p>
+    <p>
+      For privacy questions, account deletion questions, or data requests, contact <a href="mailto:sebisayz@gmail.com">sebisayz@gmail.com</a>.
+    </p>
   </main>
 </body>
 </html>
