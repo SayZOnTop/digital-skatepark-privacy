@@ -1,1 +1,1 @@
-# igital-skatepark-privacy
+# digital-skatepark-privacy
